@@ -1,0 +1,23 @@
+*{   
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --corPrimariaColor: rgb(163, 6, 6);
+    --corSecundariaColor:rgb(24, 80, 10); ; 
+    --branco:rgb(255, 255, 255);;
+    --preto: rgb(0, 0, 0);
+}
+
+#cabecalho{
+    width: 300px;
+    height: 300px;
+    background-color: var(--corPrimariaColor);
+}
+
+button{
+    width: 300px;
+    height: 300px;
+    background-color: var(--corPrimariaColor);
+}
