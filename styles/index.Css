@@ -1,23 +1,82 @@
 *{   
     margin: 0%;
     padding: 0%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 :root{
-    --corPrimariaColor: rgb(163, 6, 6);
-    --corSecundariaColor:rgb(24, 80, 10); ; 
+    --corPrimariaColor: rgb(128, 128, 27);
+    --corSecundariaColor:rgb(189, 64, 64); ; 
     --branco:rgb(255, 255, 255);;
     --preto: rgb(0, 0, 0);
 }
 
 #cabecalho{
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 70px;
+    background-color: var(--corPrimariaColor);
+    color: white;
+}
+
+h3{
+    padding: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--preto);
+    margin: 0px 10px;
+}
+button{
+    width: 80%;
+    height: 55px;
     background-color: var(--corPrimariaColor);
 }
 
-button{
-    width: 300px;
-    height: 300px;
-    background-color: var(--corPrimariaColor);
+#conteudo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
+
+#banner{
+    width: 70%;
+    height: 300px;
+    background-image: url(../images/caoGoldenBanner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#catalogo{
+    width: 80%;
+    background-color: wheat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+    .cascos{
+        width: 200px;
+        padding: 8px;
+        border-radius: 5px;
+        background-color: rgb(234, 234, 234);
+        box-shadow: 5px 5px rgb(102, 102, 102, 0.501);
+        display:flex;
+        flex-direction:column;
+        gap: 8px;  
+    }
+
+    .chifres{
+        width: 200px;
+        padding: 8px;
+        border-radius: 5px;
+        background-color: rgb(234, 234, 234);
+        box-shadow: 5px 5px rgb(102, 102, 102, 0.501);
+        display:flex;
+        flex-direction:column;
+        gap: 8px;  
+    }
