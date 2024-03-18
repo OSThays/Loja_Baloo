@@ -1,0 +1,57 @@
+@font-face {
+    font-family: fruitBanana;
+    src: url(../fonts/fruit_banana/FRUIT\ BANANA.otf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: RobotoRegular;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: normal;
+}
+
+*{   
+    margin: 0%;
+    padding: 0%;
+    font-family:'RobotoRegular', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+:root{
+    --corPrimariaColor: rgb(22, 102, 207);
+    --corSecundariaColor:rgb(255, 255, 255); ; 
+    --roxo:rgb(134, 48, 192);;
+    --preto: rgb(0, 0, 0);
+}
+
+header a{
+    text-decoration: none;
+    color: var(--corSecundariaColor);
+    margin: 0px 10px;
+}
+
+header h1{
+    font-family:'fruitBanana';
+    color: var(--corSecundariaColor);
+}
+h3, h6{
+
+    color: var(--preto);
+    margin: 20px;
+}
+
+header, footer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--corPrimariaColor);
+}
+
+#cabecalhoEsquerda, #cabecalhoDireita{
+    display: flex;
+    background-color: var(--corPrimariaColor);
+}
+
+main{
+    margin: 20px;
+    color: var(--roxo);
+}
