@@ -1,0 +1,71 @@
+@font-face {
+    font-family: fruitBanana;
+    src: url(../fonts/fruit_banana/FRUIT\ BANANA.otf);
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoNegrito;
+    src: url(../fonts/Roboto/Roboto-Black.ttf);
+}
+
+:root{
+    --corPrimaria : rgb(142, 225, 255);
+    --corSecundaria : rgb(255, 255, 255);
+    --preto : rgb(0, 0, 0);
+    --rosa  : rgb(243, 179, 232);
+    --fontePrimaria : 'Roboto' ;
+    --fonteSecundaria : RobotoNegrito ;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: RobotoRegular; 
+}
+
+#page{
+    width: 100%;
+    height: 100vh;
+    background: rgb(255, 199, 153);
+    background: linear-gradient(180deg, rgba(247, 181, 128, 0.88) 15%, rgba(198,123,17,0.6616771708683473) 50%, rgba(42,117,20,0.7008928571428572) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 70%;
+    height: 80%;
+    justify-content: center;
+    background-color: var(--corSecundaria);
+    border-radius: 25px;
+    display: flex;
+    overflow: hidden;
+}
+
+#efeito , #formulario{
+    width: 50%;
+    height: 100%;
+}
+
+#efeito{
+    background-image: url(../images/beagle.jpg);
+    background-size: cover;
+}
+
+#banner{
+    width: 100%;
+    height: 100%;
+}
+
+#formulario form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
