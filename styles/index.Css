@@ -30,11 +30,22 @@ main{
     margin: 10px;
 }
 
-    .cascos, .chifres{
-        width: 200px;
+    .cascos{
+        width: 28%;
+        padding: 8%;
+        border-radius: 5px;
+        background-color: rgb(193, 28, 28);
+        box-shadow: 5px 5px rgb(102, 102, 102, 0.501);
+        display:flex;
+        flex-direction:column;
+        gap: 15px;
+    }
+
+    .chifres{
+        width: 150%;
         padding: 8px;
         border-radius: 5px;
-        background-color: rgb(234, 234, 234);
+        background-color: rgb(48, 5, 157);
         box-shadow: 5px 5px rgb(102, 102, 102, 0.501);
         display:flex;
         flex-direction:column;

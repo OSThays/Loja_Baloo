@@ -32,7 +32,7 @@ header h1{
     font-family:'fruitBanana';
     color: var(--corSecundariaColor);
 }
-h3, h6{
+h2, h3, h5{
 
     color: var(--preto);
     margin: 20px;
@@ -42,12 +42,15 @@ header, footer{
     width: 100%;
     height: 70px;
     display: flex;
+    margin: auto;
     justify-content: space-around;
     background-color: var(--corPrimariaColor);
 }
 
 #cabecalhoEsquerda, #cabecalhoDireita{
     display: flex;
+    margin: auto;
+    justify-items: auto;
     background-color: var(--corPrimariaColor);
 }
 
