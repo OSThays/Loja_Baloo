@@ -1,3 +1,16 @@
+*{   
+    margin: 0%;
+    padding: 0%;
+    font-family:'RobotoRegular', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+:root{
+    --corPrimariaColor: rgb(22, 102, 207);
+    --corSecundariaColor:rgb(255, 255, 255); ; 
+    --roxo:rgb(134, 48, 192);;
+    --preto: rgb(0, 0, 0);
+}
+
 button{
     width: 80%;
     height: 55px;
