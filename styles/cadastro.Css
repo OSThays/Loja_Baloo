@@ -13,6 +13,15 @@
     src: url(../fonts/Roboto/Roboto-Black.ttf);
 }
 
+@keyframes mudaCor{
+    0%{
+        color: var(--preto);
+    }
+    25%{
+        color: rgb(0, 0, 0)
+    }
+}
+
 :root{
     --corPrimaria : rgb(142, 225, 255);
     --corSecundaria : rgb(255, 255, 255);
@@ -63,9 +72,41 @@ main{
     height: 100%;
 }
 
+h2 , h3, h5{
+    text-align: center;
+    margin: 15px 0px;
+    animation-name: mudaCor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
 #formulario form{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    gap: 10px
+}
+
+input{
+    width: 75%;
+    padding: 8px;
+    border: none;
+    border: solid rgb(224, 175, 85);
+    border-radius: 20px;
+    gap:10px
+}
+
+button{
+    width: 50%;
+    padding: 10px;
+    box-shadow: 5px;
+    border: none;
+    border: solid rgb(224, 175, 85);
+    border-radius: 20px;
+    text-align: center;
+    align-items: left;
+    gap: 50px;
+    color: green;
+    cursor: pointer;
 }
